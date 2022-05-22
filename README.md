@@ -17,10 +17,21 @@
 **List files and folders:**
 ```ls -la```
 
-## GIT Codes
+## Repository
 
 **Initialize Git repo created locally:**
 ```git init```
+
+**Add new repository created locally:**
+```git remote add origin repository_address.git```
+
+**Show remote repositories:**
+```git remote -v```
+
+**Clone repository to local machine:**
+```git clone repository_address.git```
+
+## Updates changes to code
 
 **Untraced files:**
 ```git status```
@@ -37,13 +48,15 @@ git push -u origin master
 git push 
 ```
 
-**Add new repository created locally:**
-```git remote add origin repository_address.git```
+## Branches
 
-**Show remote repositories:**
-```git remote -v```
+**List all branches available**
+```git branch```
 
-**Clone repository to local machine:**
-```git clone repository_address.git```
+**Create new branch -b:**
+```git checkout -b feature-readme```
+
+**Switch between branches - tab feature**
+```git checkout branch_name```
 
 
