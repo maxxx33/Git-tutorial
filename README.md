@@ -73,3 +73,22 @@ git push
 
 **Delete branch local machine:**
 ```git branch -d feature-readme```
+
+**Merge branches locally**
+```git merge branch_name(main)```
+
+## Undoing changes made to code
+**Undoing add**
+```git reset file_name```
+
+**Undoing merging - HEAD is a pointer**
+```git reset HEAD~1```
+
+**Log of all commits**
+```
+git log
+git reset hash
+```
+
+**Undoing all changes**
+```git reset --hard hash```
