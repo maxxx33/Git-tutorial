@@ -1,6 +1,6 @@
-###### SSH Connections and keys
+## SSH Connections and keys
 **Generate new key**
-ssh-keygen -t rsa -b 4096 -C "email@email.com" 
+```ssh-keygen -t rsa -b 4096 -C "email@email.com" ```
 
 **List keys**
 ls | grep keyname
@@ -14,7 +14,7 @@ eval "$(ssh-agent -s)"
 **Add private key to SSH connection**
 ssh-add keyname
 
-###### GIT Codes
+## GIT Codes
 
 **Initialize Git repo created locally**
 git init
@@ -38,7 +38,7 @@ git remote add origin repository_address.git
 **Show remote repositories**
 git remote -v
 
-**Clone repository**
+**Clone repository to local machine**
 git clone repository_address.git
 
 
