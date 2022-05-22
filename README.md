@@ -43,7 +43,7 @@ git push
 **Show remote repositories:**
 ```git remote -v```
 
-**Clone repository to local machine**
+**Clone repository to local machine:**
 ```git clone repository_address.git```
 
 
