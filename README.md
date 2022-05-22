@@ -42,6 +42,9 @@
 **Commit changes made locally:**
 ```git commit -m "message" -m "message2"```
 
+**Commit and add for existing files:**
+```git commit -am "message"```
+
 **Push modifications online to Github:**
 ```
 git push -u origin master
@@ -50,15 +53,23 @@ git push
 
 ## Branches
 
-**List all branches available**
+**List all branches available:**
 ```git branch```
 
 **Create new branch -b:**
 ```git checkout -b feature-readme```
 
-**Switch between branches - tab feature**
+**Switch between branches - tab feature:**
 ```git checkout branch_name```
 
-**Change branch name to main locally**
+**Change branch name to main locally:**
 ```git branch -m main```
 
+**Compare changes in 2 branches:**
+```git diff branch_name```
+
+**Update branch from Github to local:**
+```git pull origin branch_name```
+
+**Delete branch local machine:**
+```git branch -d feature-readme```
