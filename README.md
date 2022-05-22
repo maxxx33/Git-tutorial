@@ -59,4 +59,6 @@ git push
 **Switch between branches - tab feature**
 ```git checkout branch_name```
 
+**Change branch name to main locally**
+```git branch -m main```
 
